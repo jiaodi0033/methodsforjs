@@ -1,4 +1,11 @@
 // 最小栈
+/* 算法描述：设计一个支持 push,pop,top 的操作，并能在常数时间内检测到最小元素的栈;
+   push(value):入栈；
+   pop():出栈；
+   top(): 返回栈顶元素
+   getMin():检测栈内最小元素
+
+*/
 const minStack = function () {
     this.items = [];
     this.min = null;
